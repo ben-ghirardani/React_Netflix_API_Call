@@ -22200,23 +22200,24 @@ const MovieDetail = ({ movie }) => {
     }
 
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'div',
+        "div",
         null,
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'h3',
+            "h3",
             null,
             movie.show_title
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'p',
+            "p",
             null,
             movie.summary
         ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: movie.poster, alt: movie.summary, height: "150", width: "100" }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'a',
+            "a",
             { href: movie.poster },
             movie.show_title,
-            ' '
+            " "
         )
     );
 };
